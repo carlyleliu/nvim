@@ -6,3 +6,6 @@ require("config.basic")
 
 -- keybinding config
 require("config.keybindings")
+
+-- lsp-config
+require("config.lspconfig")
