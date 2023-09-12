@@ -3,3 +3,6 @@ require("config.lazy")
 
 -- vim basic config
 require("config.basic")
+
+-- keybinding config
+require("config.keybindings")
