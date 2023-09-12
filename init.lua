@@ -6,6 +6,3 @@ require("config.basic")
 
 -- keybinding config
 require("config.keybindings")
-
--- project plugin  and config
-require("config.project")
