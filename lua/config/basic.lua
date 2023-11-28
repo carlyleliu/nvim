@@ -1,5 +1,8 @@
 -- utf-8
 --
+
+local opt = vim.opt
+
 -- 显示左侧图标指示列
 vim.wo.signcolumn = "yes"
 
@@ -27,3 +30,9 @@ vim.o.smartcase = true
 -- 不可见字符的显示，这里只把空格显示为一个点
 vim.o.list = true
 vim.o.listchars = "tab:>·,trail:-,space:·"
+
+-- 设置系统剪切板
+opt.clipboard = "unnamedplus" -- Sync with system clipboard
+
+-- 不自动格式化文件
+vim.g.autoformat = false
