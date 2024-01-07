@@ -14,3 +14,7 @@ vim.keymap.set("n", "<C-w>", ":Bdelete!<CR>", opt)
 vim.keymap.set("n", "<leader>bl", ":BufferLineCloseRight<CR>", opt)
 vim.keymap.set("n", "<leader>bh", ":BufferLineCloseLeft<CR>", opt)
 vim.keymap.set("n", "<leader>bc", ":BufferLinePickClose<CR>", opt)
+
+-- bookmarks
+vim.keymap.set("n", "<leader>ml", ":Telescope bookmarks list<CR>", opt)
+vim.keymap.set("n", "<leader>md", ":delmarks ", opt)

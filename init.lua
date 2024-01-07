@@ -9,3 +9,6 @@ require("config.keybindings")
 
 -- lsp-config
 require("config.lspconfig")
+
+-- bookmark config
+require("config.bookmarks")
