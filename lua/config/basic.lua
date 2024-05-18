@@ -30,7 +30,7 @@ vim.opt.smartcase = true
 
 -- 不可见字符的显示，这里只把空格显示为一个点
 vim.opt.list = true
-vim.opt.listchars = "tab:<-,trail:·,space:·"
+vim.opt.listchars = "tab:--,trail:·,space:·"
 
 -- 设置系统剪切板
 vim.opt.clipboard = "unnamedplus" -- Sync with system clipboard
