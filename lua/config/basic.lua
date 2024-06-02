@@ -37,3 +37,6 @@ vim.opt.clipboard = "unnamedplus" -- Sync with system clipboard
 
 -- 不自动格式化文件
 vim.g.autoformat = false
+
+-- 显示当前文件全路径
+vim.keymap.set("n", "<leader>p", ":echo expand('%:p')<CR>", opt)
